@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6bd07788-a48c-4568-a79b-71eebf227c95" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/GreenEstate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UML.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/confirmation_token.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/enums.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/garden_plan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/password_reset_token.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/plant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/property.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pdf_generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/garden_plans.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/plants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/properties.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/DejaVuSans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/DejaVuSans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/PrivateRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/ConfirmEmail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Confirmed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/ForgotPassword.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/GardenPlan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/GardenPlanCanvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Plants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Properties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/ResetPassword.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/services/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seed_plants.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="JavaScript File" />
+        <option value="UML Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="3CZHHNpew3ajiFpIWPoQ45CHD6P" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultPlantUmlFileTemplate": "UML Class",
+    "Python.__init__.executor": "Run",
+    "Python.auth.executor": "Run",
+    "Python.config.executor": "Run",
+    "Python.plants.executor": "Debug",
+    "Python.run.executor": "Run",
+    "Python.seed_plants.executor": "Run",
+    "Python.test_mail.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Дипломна работа/GreenEstate/frontend/public",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "DotEnv",
+      "TEXT"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Дипломна работа\GreenEstate\frontend\public" />
+      <recent name="D:\Дипломна работа\GreenEstate" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GreenEstate\fonts" />
+      <recent name="D:\GreenEstate\app" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-b63d5a1f7c97-b61e75351b1f-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.22158.340" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6bd07788-a48c-4568-a79b-71eebf227c95" name="Changes" comment="" />
+      <created>1776586083943</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776586083943</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

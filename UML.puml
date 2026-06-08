@@ -1,0 +1,62 @@
+@startuml GreenEstate Server Architecture
+
+skinparam backgroundColor #ffffff
+skinparam componentBackgroundColor #f0fdf4
+skinparam componentBorderColor #16a34a
+skinparam componentFontColor #1a3c17
+skinparam packageBackgroundColor #dcfce7
+skinparam packageBorderColor #16a34a
+skinparam packageFontColor #14532d
+skinparam ArrowColor #16a34a
+skinparam shadowing false
+
+left to right direction
+
+package "Client" {
+  [React Frontend] as FE
+}
+
+package "Flask Server" {
+
+  package "Controller Layer" {
+    [auth.py] as AUTH
+    [properties.py] as PROP
+    [plants.py] as PLANT
+    [garden_plans.py] as GP
+  }
+
+  package "Business Logic" {
+    [JWT Auth] as JWT
+    [Recommendations] as REC
+    [PDF Generator] as PDF
+    [Email Service] as MAIL
+  }
+
+  package "ORM Layer" {
+    [SQLAlchemy] as ORM
+  }
+
+}
+
+package "Database" {
+  [MySQL] as DB
+}
+
+FE --> AUTH : HTTP / REST
+FE --> PROP : HTTP / REST
+FE --> PLANT : HTTP / REST
+FE --> GP : HTTP / REST
+
+AUTH --> JWT
+AUTH --> MAIL
+PLANT --> REC
+GP --> PDF
+
+AUTH --> ORM
+PROP --> ORM
+PLANT --> ORM
+GP --> ORM
+
+ORM --> DB : SQL
+
+@enduml
